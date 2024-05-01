@@ -1,0 +1,7 @@
+
+
+# Identify 2-3 changes that can be made to our environment to prevent an ssh brute force attack from the internet.
+Update security group block SSH connect with all IP.
+Update only login with ssh using key file
+# Neither instance should have had access to the secret recipes bucket, in the even that instance API credentials were compromised how could we have prevented access to sensitive data.
+Update the IAM policy for to allow read access to the free recipes S3 bucket.

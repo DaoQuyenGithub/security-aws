@@ -1,0 +1,15 @@
+# Describe GuardDuty findings that were detected related to the brute force attack
+I apology for not having the E3T1_guardduty.png which have findings, because GuardDuty doesn't show finding and I tried many times, couple of hours.
+So i screenshot terminal into E3T1_guardduty.png to demonstation I attaked.
+
+I tried like you required and it didn't work. I see on udacity have many people have same problem like me.
+I try:
+- Activate GuardDuty: Make sure AWS GuardDuty is active for your region in the AWS Management Console.
+- Permissions Check: Verify that your AWS account has the necessary permissions to access GuardDuty findings.
+- Simulate SSH Traffic: Perform activities that mimic an ssh brute force attack, as GuardDuty needs to observe suspicious traffic to log an event.
+- Patience is Key: After simulating the ssh brute force traffic, give GuardDuty some time. It might take a little while to process the events and display the findings.
+- Inspect Findings: Revisit the GuardDuty dashboard after a while to check for any new findings.
+- Documentation Dive: Go through the AWS GuardDuty documentation for insights on what triggers findings and compare it with your activities.
+- Check VPC Flow Logs: If you’re using VPC Flow Logs, ensure they are set up correctly to track the network traffic GuardDuty needs to see.
+
+# Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.

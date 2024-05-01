@@ -1,0 +1,8 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+The VPC configuration has all DestinationCidrBlock defined as 0.0.0.0/0 that make the attacker possible to send information to any IP address within the VPC in case there is a breachinto the subnet.
+
+# Poor practice 2
+An IAM role provide the web app instance full access to S3 bucket. This role should have least privilege grants only the permissions required to perform necessary actions in the S3 Bucket.
+Allow the application full access to perform all operations, this could include access data in other object or even deleting object.

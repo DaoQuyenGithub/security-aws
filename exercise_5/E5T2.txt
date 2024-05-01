@@ -1,0 +1,23 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+Terrascan: https://runterrascan.io
+
+### Example vulnerability
+Ingress open 0.0.0.0/0
+
+##Scan AMI’s or containers for OS vulnerabilities
+blackduck: https://www.synopsys.com/software-integrity/software-composition-analysis-tools/binary-analysis.html
+
+### Example vulnerability
+Old dependency can have many bugs and security vulnerabilities from component
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+AWS Config: https://aws.amazon.com/config/
+
+### Example vulnerability
+Unsecured privileged users 
+No policy for password
+Not enable MFA for user 
+
+    
